@@ -1,5 +1,6 @@
 // Working.cpp by Arpit Rana
-/*
+/* C doesnt have references it is an exclusive feature of
+CPP
 Multi-line comments
 */
 
