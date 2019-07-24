@@ -17,12 +17,14 @@ const char * u8_to_cstr(const uint8_t & x){
 int main(){
   uint8_t x = 7;
   uint8_t y = 10;
-  uint8_t z = ~y;
+  uint8_t z =  y<<1;
+  uint8_t a = z<<1;
 
   printf("x is %s\n",u8_to_cstr(x) );
   printf("y is %s\n",u8_to_cstr(y) );
   printf("result is %s\n",u8_to_cstr(z) );
   printf("z is %d\n",z );
+  printf("a is %d\n",a );
 
   return 0;
 }
