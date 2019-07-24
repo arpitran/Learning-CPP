@@ -1,0 +1,7 @@
+D:\Projects\CPP\Learning-CPP\Operators\dynamicmemoryOperators.cpp:5:26: warning: unsigned conversion from 'long long int' to 'size_t' {aka 'unsigned int'} changes value from '1024000000000000' to '2487222272' [-Woverflow]
+ constexpr size_t count = 1024000000000000;
+                          ^~~~~~~~~~~~~~~~
+D:\Projects\CPP\Learning-CPP\Operators\dynamicmemoryOperators.cpp: In function 'int main()':
+D:\Projects\CPP\Learning-CPP\Operators\dynamicmemoryOperators.cpp:13:29: error: size of array is too large
+     ip = new long int [count];
+                             ^
