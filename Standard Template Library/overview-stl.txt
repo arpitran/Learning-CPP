@@ -1,0 +1,16 @@
+/*
+vector containter
+dobule linked list
+set
+map
+LIFO, FIFO,
+stacck,queue and deck,
+string
+iostream
+
+cout<<"Hello, World"<<endl;
+
+cout is based on io stream classes
+STL is very large
+C++ Templates and STL
+*/
